@@ -1,0 +1,20 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Marching Cubes (RIMLS)">
+  <Param type="RichFloat" value="2" name="FilterScale"/>
+  <Param type="RichFloat" value="0.0001" name="ProjectionAccuracy"/>
+  <Param type="RichInt" value="15" name="MaxProjectionIters"/>
+  <Param type="RichFloat" value="0.75" name="SigmaN"/>
+  <Param type="RichInt" value="3" name="MaxRefittingIters"/>
+  <Param type="RichInt" value="200" name="Resolution"/>
+ </filter>
+ <filter name="Merge Close Vertices">
+  <Param type="RichAbsPerc" value="0.099265" min="0" name="Threshold" max="9.92646"/>
+ </filter>
+ <filter name="Merge Close Vertices">
+  <Param type="RichAbsPerc" value="0.099265" min="0" name="Threshold" max="9.92646"/>
+ </filter>
+ <filter name="Remove isolated pieces (wrt diameter)">
+  <Param type="RichAbsPerc" value="99.2646" min="0" name="MinComponentDiag" max="992.646"/>
+ </filter>
+</FilterScript>

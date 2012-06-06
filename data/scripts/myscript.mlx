@@ -1,0 +1,8 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Conditional Vertex Selection">
+  <Param type="RichString" value="(z &lt; -569)" name="condSelect"/>
+  <Param type="RichBool" value="true" name="strictSelect"/>
+ </filter>
+ <filter name="Delete Selected Vertices"/>
+</FilterScript>
